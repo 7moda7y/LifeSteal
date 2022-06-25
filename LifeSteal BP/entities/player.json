@@ -1,0 +1,1110 @@
+{
+  "format_version": "1.17.10",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:player",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false,
+      "scripts": {
+        "animate": [
+         "death_count"
+        ]
+       },   
+       "animations": {
+        "death_count": "controller.animation.death_count"
+       }
+    },
+
+    "component_groups": {
+      "minecraft:add_bad_omen": {
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "bad_omen",
+              "duration": 6000,
+              "display_on_screen_animation": true
+            }
+          ]
+        },
+        "minecraft:timer": {
+          "time": [ 0.0, 0.0 ],
+          "looping": false,
+          "time_down_event": {
+            "event": "minecraft:clear_add_bad_omen",
+            "target": "self"
+          }
+        }
+      },
+      "minecraft:clear_bad_omen_spell_effect": {
+        "minecraft:spell_effects": {
+        }
+      },
+      "minecraft:raid_trigger": {
+        "minecraft:raid_trigger": {
+          "triggered_event": {
+            "event": "minecraft:remove_raid_trigger",
+            "target": "self"
+          }
+        },
+        "minecraft:spell_effects": {
+          "remove_effects": "bad_omen"
+        }
+      },
+	  
+	  "h0": {
+		"minecraft:health": {
+			"value": 1,
+			"max": 1
+		}
+	},
+      "h1": {
+				"minecraft:health": {
+					"value": 2,
+					"max": 2
+				}
+			},
+			"h2": {
+				"minecraft:health": {
+					"value": 4,
+					"max": 4
+				}
+			},
+			"h3": {
+				"minecraft:health": {
+					"value": 6,
+					"max": 6
+				}
+			},
+			"h4": {
+				"minecraft:health": {
+					"value": 8,
+					"max": 8
+				}
+			},
+			"h5": {
+				"minecraft:health": {
+					"value": 10,
+					"max": 10
+				}
+			},
+			"h6": {
+				"minecraft:health": {
+					"value": 12,
+					"max": 12
+				}
+			},
+			"h7": {
+				"minecraft:health": {
+					"value": 14,
+					"max": 14
+				}
+			},
+			"h8": {
+				"minecraft:health": {
+					"value": 16,
+					"max": 16
+				}
+			},
+			"h9": {
+				"minecraft:health": {
+					"value": 18,
+					"max": 18
+				}
+			},
+			"h10": {
+				"minecraft:health": {
+					"value": 20,
+					"max": 20
+				}
+			},
+			"h11": {
+				"minecraft:health": {
+					"value": 22,
+					"max": 22
+				}
+			},
+			"h12": {
+				"minecraft:health": {
+					"value": 24,
+					"max": 24
+				}
+			},
+			"h13": {
+				"minecraft:health": {
+					"value": 26,
+					"max": 26
+				}
+			},
+			"h14": {
+				"minecraft:health": {
+					"value": 28,
+					"max": 28
+				}
+			},
+			"h15": {
+				"minecraft:health": {
+					"value": 30,
+					"max": 30
+				}
+			},
+			"h16": {
+				"minecraft:health": {
+					"value": 32,
+					"max": 32
+				}
+			},
+			"h17": {
+				"minecraft:health": {
+					"value": 34,
+					"max": 34
+				}
+			},
+			"h18": {
+				"minecraft:health": {
+					"value": 36,
+					"max": 36
+				}
+			},
+			"h19": {
+				"minecraft:health": {
+					"value": 38,
+					"max": 38
+				}
+			},
+			"h20": {
+				"minecraft:health": {
+					"value": 40,
+					"max": 40
+				}
+			},
+			"h21": {
+				"minecraft:health": {
+					"value": 42,
+					"max": 42
+				}
+			},
+			"h22": {
+				"minecraft:health": {
+					"value": 44,
+					"max": 44
+				}
+			},
+			"h23": {
+				"minecraft:health": {
+					"value": 46,
+					"max": 46
+				}
+			},
+			"h24": {
+				"minecraft:health": {
+					"value": 48,
+					"max": 48
+				}
+			},
+			"h25": {
+				"minecraft:health": {
+					"value": 50,
+					"max": 50
+				}
+			},
+			"h26": {
+				"minecraft:health": {
+					"value": 52,
+					"max": 52
+				}
+			},
+			"h27": {
+				"minecraft:health": {
+					"value": 54,
+					"max": 54
+				}
+			},
+			"h28": {
+				"minecraft:health": {
+					"value": 56,
+					"max": 56
+				}
+			},
+			"h29": {
+				"minecraft:health": {
+					"value": 58,
+					"max": 58
+				}
+			},
+			"h30": {
+				"minecraft:health": {
+					"value": 60,
+					"max": 60
+				}
+			},
+			"h31": {
+				"minecraft:health": {
+					"value": 62,
+					"max": 62
+				}
+			},
+			"h32": {
+				"minecraft:health": {
+					"value": 64,
+					"max": 64
+				}
+			},
+			"h33": {
+				"minecraft:health": {
+					"value": 66,
+					"max": 66
+				}
+			},
+			"h34": {
+				"minecraft:health": {
+					"value": 68,
+					"max": 68
+				}
+			},
+			"h35": {
+				"minecraft:health": {
+					"value": 70,
+					"max": 70
+				}
+			},
+			"h36": {
+				"minecraft:health": {
+					"value": 72,
+					"max": 72
+				}
+			},
+			"h37": {
+				"minecraft:health": {
+					"value": 74,
+					"max": 74
+				}
+			},
+			"h38": {
+				"minecraft:health": {
+					"value": 76,
+					"max": 76
+				}
+			},
+			"h39": {
+				"minecraft:health": {
+					"value": 78,
+					"max": 78
+				}
+			},
+			"h40": {
+				"minecraft:health": {
+					"value": 80,
+					"max": 80
+				}
+			}
+    },
+
+    "components": {
+      "minecraft:experience_reward": {
+        "on_death": "Math.Min(query.player_level * 7, 100)"
+      },
+      "minecraft:type_family": {
+        "family": [ "player" ]
+      },
+      "minecraft:is_hidden_when_invisible": {
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/heart.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:movement": {
+        "value": 0.1
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:attack": {
+        "damage": 1
+      },
+      "minecraft:player.saturation": {
+        "value": 20
+      },
+      "minecraft:player.exhaustion": {
+        "value": 0,
+        "max": 4
+      },
+      "minecraft:player.level": {
+        "value": 0,
+        "max": 24791
+      },
+      "minecraft:player.experience": {
+        "value": 0,
+        "max": 1
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": -1,
+        "inhale_time": 3.75,
+        "generates_bubbles": false
+      },
+      "minecraft:nameable": {
+        "always_show": true,
+        "allow_name_tag_renaming": false
+      },
+      "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:insomnia": {
+        "days_until_insomnia": 3
+      },
+      "minecraft:rideable": {
+        "seat_count": 2,
+        "family_types": [
+          "parrot_tame"
+        ],
+        "pull_in_entities": true,
+        "seats": [
+          {
+            "position": [ 0.4, -0.2, -0.1 ],
+            "min_rider_count": 0,
+            "max_rider_count": 0,
+            "lock_rider_rotation": 0
+          },
+          {
+            "position": [ -0.4, -0.2, -0.1 ],
+            "min_rider_count": 1,
+            "max_rider_count": 2,
+            "lock_rider_rotation": 0
+          }
+        ]
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+      },
+      "minecraft:block_climber": {},
+      "minecraft:environment_sensor": {
+        "triggers": {
+          "filters": {
+            "all_of": [
+              {
+                "test": "has_mob_effect",
+                "subject": "self",
+                "value": "bad_omen"
+              },
+              {
+                "test": "is_in_village",
+                "subject": "self",
+                "value": true
+              }
+            ]
+          },
+          "event": "minecraft:trigger_raid"
+        }
+      }
+    },
+
+    "events": {
+		"h0": {
+			"sequence": [
+				{
+					"add": {
+						"component_groups": [
+							"h0"
+						]
+					},
+					"remove": {
+						"component_groups": [
+							"h1"
+						]
+					}
+				}
+			]
+		},
+      "h1": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h1"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h2"
+							]
+						}
+					}
+				]
+			},
+      "h2": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h2"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h1"
+							]
+						}
+					}
+				]
+			},
+      "h3": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h3"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h2"
+							]
+						}
+					}
+				]
+			},
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"h10"
+					]
+				}
+			},
+			"h4": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h4"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h3"
+							]
+						}
+					}
+				]
+			},
+			"h5": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h5"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h4"
+							]
+						}
+					}
+				]
+			},
+			"h6": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h6"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h5"
+							]
+						}
+					}
+				]
+			},
+			"h7": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h7"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h6"
+							]
+						}
+					}
+				]
+			},
+			"h8": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h8"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h7"
+							]
+						}
+					}
+				]
+			},
+			"h9": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h9"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h8"
+							]
+						}
+					}
+				]
+			},
+			"h10": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h10"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h9"
+							]
+						}
+					}
+				]
+			},
+			"h11": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h11"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h10"
+							]
+						}
+					}
+				]
+			},
+			"h12": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h12"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h11"
+							]
+						}
+					}
+				]
+			},
+			"h13": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h13"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h12"
+							]
+						}
+					}
+				]
+			},
+			"h14": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h14"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h13"
+							]
+						}
+					}
+				]
+			},
+			"h15": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h15"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h14"
+							]
+						}
+					}
+				]
+			},
+			"h16": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h16"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h15"
+							]
+						}
+					}
+				]
+			},
+			"h17": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h17"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h16"
+							]
+						}
+					}
+				]
+			},
+			"h18": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h18"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h17"
+							]
+						}
+					}
+				]
+			},
+			"h19": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h19"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h18"
+							]
+						}
+					}
+				]
+			},
+			"h20": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h20"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h19"
+							]
+						}
+					}
+				]
+			},
+			"h21": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h21"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h20"
+							]
+						}
+					}
+				]
+			},
+			"h22": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h22"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h21"
+							]
+						}
+					}
+				]
+			},
+			"h23": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h23"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h22"
+							]
+						}
+					}
+				]
+			},
+			"h24": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h24"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h23"
+							]
+						}
+					}
+				]
+			},
+			"h25": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h25"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h24"
+							]
+						}
+					}
+				]
+			},
+			"h26": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h26"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h25"
+							]
+						}
+					}
+				]
+			},
+			"h27": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h27"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h26"
+							]
+						}
+					}
+				]
+			},
+			"h28": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h28"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h27"
+							]
+						}
+					}
+				]
+			},
+			"h29": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h29"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h28"
+							]
+						}
+					}
+				]
+			},
+			"h30": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h30"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h29"
+							]
+						}
+					}
+				]
+			},
+			"h31": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h31"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h30"
+							]
+						}
+					}
+				]
+			},
+			"h32": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h32"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h31"
+							]
+						}
+					}
+				]
+			},
+			"h33": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h33"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h32"
+							]
+						}
+					}
+				]
+			},
+			"h34": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h34"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h33"
+							]
+						}
+					}
+				]
+			},
+			"h35": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h35"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h34"
+							]
+						}
+					}
+				]
+			},
+			"h36": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h36"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h35"
+							]
+						}
+					}
+				]
+			},
+			"h37": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h37"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h36"
+							]
+						}
+					}
+				]
+			},
+			"h38": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h38"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h37"
+							]
+						}
+					}
+				]
+			},
+			"h39": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h39"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h38"
+							]
+						}
+					}
+				]
+			},
+			"h40": {
+				"sequence": [
+					{
+						"add": {
+							"component_groups": [
+								"h40"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"h39"
+							]
+						}
+					}
+				]
+			},
+      "minecraft:gain_bad_omen": {
+        "add": {
+          "component_groups": [
+            "minecraft:add_bad_omen"
+          ]
+        }
+      },
+      "minecraft:clear_add_bad_omen": {
+        "remove": {
+          "component_groups": [
+            "minecraft:add_bad_omen"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:clear_bad_omen_spell_effect"
+          ]
+        }
+      },
+      "minecraft:trigger_raid": {
+        "add": {
+          "component_groups": [ "minecraft:raid_trigger" ]
+        }
+      },
+      "minecraft:remove_raid_trigger": {
+        "remove": {
+          "component_groups": [ "minecraft:raid_trigger" ]
+        }
+      }
+    }
+  }
+}

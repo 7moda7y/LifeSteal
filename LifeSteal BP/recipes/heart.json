@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+      "tags": [
+          "crafting_table"
+      ],
+      "pattern": [
+          "###",
+          "#T#",
+          "###"
+      ],
+      "key": {
+          "#": {
+              "item": "7md:heart_fragment"
+          },
+          "T": {
+            "item": "minecraft:totem_of_undying"
+        }
+      },
+      "result": {
+          "item": "7md:heart",
+          "count": 1
+      },
+      "description": {
+          "identifier": "7md:heart"
+      }
+  }
+}

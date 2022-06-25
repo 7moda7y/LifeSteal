@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "In This Pack You Can §1STEAL other people's §chearts Created By 7moda7y",
+    "name": "§cLife §1Steal BP",
+    "uuid": "f37db4c7-6f7a-3e64-9568-104e2f5c39cb",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      16,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "In This Pack You Can §1STEAL other people's §chearts",
+      "type": "data",
+      "uuid": "cfd9e96b-75e0-3f21-b094-359bf7183d9b",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "901eeed0-18be-3510-a706-97b37fec81ce",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

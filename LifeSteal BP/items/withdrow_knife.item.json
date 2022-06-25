@@ -1,0 +1,35 @@
+{
+  "format_version": "1.18.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "7md:withdrow_knife",
+      "category" : "items"
+    },
+    "components": {
+      "minecraft:on_use": {
+				"on_use": {
+					"event": "example:item_event",
+					"target": "self"
+				}
+			},
+      "minecraft:hand_equipped": true,
+        "minecraft:display_name": {
+            "value": "§9Withdraw Knife"
+
+        },
+        "minecraft:stacked_by_data": true,
+        "minecraft:max_stack_size": 1,
+        "minecraft:icon":{
+            "texture": "knife"
+        }
+    },
+    "events": {
+			"example:item_event": {
+				"run_command": {
+					"command": ["damage @s 10 magic","give @s 7md:heart","scoreboard players remove @s Health 1"],
+					"target": "holder"
+				}
+			}
+		}
+  }
+}

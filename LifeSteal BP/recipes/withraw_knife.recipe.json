@@ -1,0 +1,37 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " #I",
+            "PR#",
+            "LP "
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:string"
+            },
+            "I": {
+                "item": "minecraft:iron_block"
+            },
+            "P": {
+                "item": "minecraft:planks"
+            },
+            "R": {
+                "item": "minecraft:redstone_block"
+            },
+            "L": {
+                "item": "minecraft:log"
+            }
+        },
+        "result": {
+            "item": "7md:withdrow_knife",
+            "count": 1
+        },
+        "description": {
+            "identifier": "7md:withdraw_knife"
+        }
+    }
+}

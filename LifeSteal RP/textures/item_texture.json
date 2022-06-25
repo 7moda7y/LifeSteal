@@ -1,0 +1,15 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"heart": {
+			"textures": "textures/items/heart"
+		},
+		"heart_shard": {
+			"textures": "textures/items/heart_shard"
+		},
+		"knife": {
+			"textures": "textures/items/Combat_Knife"
+		}
+	}
+}

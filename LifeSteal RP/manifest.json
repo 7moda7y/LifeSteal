@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "In This Pack You Can §1STEAL other people's §chearts",
+    "name": "§cLife §1Steal RP",
+    "uuid": "901eeed0-18be-3510-a706-97b37fec81ce",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      16,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "In This Pack You Can §1STEAL other people's §chearts",
+      "type": "resources",
+      "uuid": "0adc7e27-02dd-396f-a6f5-6a34406c382d",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

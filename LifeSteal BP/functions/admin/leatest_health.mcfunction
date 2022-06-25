@@ -1,0 +1,1 @@
+scoreboard players set @e[tag=admin] Health 1
